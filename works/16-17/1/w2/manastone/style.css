@@ -1,0 +1,197 @@
+@import url(http://allfont.ru/allfont.css?fonts=benguiat-rus);
+body {
+  background-color: #dec487;
+  font-family: 'Benguiat Rus', arial;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(background.jpg);
+  margin-top: -10px;
+  box-shadow: 0 0 5px 5px #e6cb8f;
+}
+.header {
+  width: 1160px;
+  padding: 20px;
+  border-bottom: 2px solid grey;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.logo {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px 0px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: 900;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-left: 50px;
+  background-image: url(logo.png);
+  background-size: contain;
+}
+.menu {
+  background-color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  vertical-align: top;
+  width: 1000px;
+  height: 60px;
+}
+.slider {
+  margin: 20px 0;
+  width: 100%;
+  height: 400px;
+  background-color: #38d;
+}
+.menu_nav {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  transition: 1s;
+  left: -200px;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url(background.jpg);
+  color: white;
+  box-shadow: 0 0 5px 5px #e6cb8f;
+}
+.menu_is-open {
+  transform: translatex(200px);
+}
+.button__info {
+  display: inline-block;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 1.1rem;
+  color: white;
+  transition: .2s;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-top: 7px;
+  text-decoration: none;
+  font-family: 'Benguiat Rus', arial;
+}
+.button__info-menu {
+  display: none;
+}
+.button__info:hover {
+  background-color: #f9b820;
+}
+.button__info:active {
+  box-shadow: 0 0 2px 2px black;
+}
+.news-enter {
+  font-size: 50px;
+  font-family: 'Benguiat Rus', arial;
+  text-align: center;
+}
+.block-of-news {
+  Border: 2px solid black;
+  width: 700px;
+  height: 250px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.news {
+  height: 1150px;
+}
+.news__news-2 {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  box-shadow: 0 0 5px 5px black;
+  background-image: url(back-kaz.png);
+}
+.news__news-1 {
+  margin: 0 0 0 auto;
+  margin-right: 10px;
+  background-image: url(back-1.png);
+  background-size: cover;
+  box-shadow: 0 0 5px 5px black;
+  margin-bottom: 20px;
+}
+.news__news-4 {
+  margin-left: 10px;
+  box-shadow: 0 0 5px 5px black;
+  margin-bottom: 20px;
+  background-image: url(back-lotos.png);
+}
+.news__news-3 {
+  margin: 0 0 0 auto;
+  box-shadow: 0 0 5px 5px black;
+  margin-bottom: 20px;
+  background-image: url(back-bugai.png);
+  margin-right: 10px;
+}
+.news-in {
+  color: white;
+  height: 250px;
+  width: 300px;
+  margin: 0 0 0 auto;
+  padding-right: 10px;
+}
+.news-in-1 {
+  color: white;
+  height: 250px;
+  width: 300px;
+  margin: auto 0 0 0;
+  padding-left: 10px;
+}
+.news-in-h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.footer {
+  width: 1160px;
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 2px solid grey;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.leeroy {
+  width: 180px ;
+  height: 249px ;
+  position: fixed;
+  left: -400px;
+  transition: 1s;
+}
+.leeroyrekt {
+  transform: translate(2000px, 0px);
+}
+.btn-1 {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+  .button__info {
+    margin-left: 30px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .footer {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .header {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .btn-1 {
+    display: block;
+  }
+  .block-of-news {
+    width: 100%;
+  }
+}

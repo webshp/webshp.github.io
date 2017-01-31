@@ -1,0 +1,895 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PIX</title>
+	<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <style>
+		@keyframes menu{
+		0%{transform: translate(-204px, 0);}
+		100%{transform: translate(0px, 0);}
+		}
+		@keyframes menu2{
+		0%{transform: translate(204px, 0);}
+		100%{transform: translate(0px, 0);}
+		}
+		@keyframes pen{
+		0%{transform: translate(0, -600px);}
+		100%{transform: translate(0, 0);}
+		}
+		@keyframes pen2{
+		0%{transform: translate(0, 750px);}
+		100%{transform: translate(0, 0);}
+		}
+        .triangle{
+            width: 20px;
+            height: 20px;
+            background: white;    
+            display: inline-block;
+			margin: 1px;
+			margin-bottom: -4px;
+        }
+		.cube{
+            width: 18px;
+            height: 18px;
+            background: white;    
+            display: inline-block;
+			margin-left: 6px;
+			margin-bottom: -2px;
+			padding: 1px;
+			border: 1px solid black;
+        }
+		.butt{
+			margin-left: 6px;
+        }
+		.men1{
+			top: 2px;
+			left: 2px;
+			position: fixed;
+			z-index: 1;
+			height: 554px;
+			width: 190px;
+			background: #FFEFD5;
+			border: 2px solid black;
+		}
+		.men2{
+			top: 2px;
+			left: 2px;
+			position: fixed;
+			z-index: 1;
+			height: 554px;
+			width: 190px;
+			background: #FFEFD5;
+			animation: menu 0.3s normal 1;
+			border: 2px solid black;
+		}
+		.men3{
+			top: 2px;	
+			position: fixed;
+			z-index: 1;
+			height: 554px;
+			width: 190px;
+			background: #FFEFD5;
+			animation: menu2 0.3s normal 1;
+			left: -204px;
+			border: 2px solid black;
+		}
+        .red{
+           background: red; 
+        }
+		.black{
+           background: black; 
+        }
+		.green{
+           background: green; 
+        }
+		.blue{
+           background: blue; 
+        }
+		.yellow{
+           background: yellow; 
+        }
+		.white{
+           background: white; 
+        }
+		.orange{
+           background: orange; 
+        }
+		.purple{
+           background: purple; 
+        }
+		.lime{
+           background: lime; 
+        }
+		.aqua{
+           background: aqua; 
+        }
+		.silver{
+           background: silver; 
+        }
+		.maroon{
+           background: #8B4513; 
+        }
+		.violet{
+           background: violet; 
+        }
+		.bezg{
+		background: #FFDEAD;
+		}
+		.olive{
+		background: #808000;
+		}
+		.karii{
+		background: #DAA520;
+		}
+		.drred{
+		background: #8B0000;
+		}
+		.inred{
+		background: #CD5C5C;
+		}
+		.viol{
+		background: #C71585;
+		}
+		.navy{
+		background: #000080;
+		}
+		.sky{
+		background: #87CEFA;
+		}
+		.steelb{
+		background: #4682B4;
+		}
+		.medblue{
+		background: #0000CD;
+		}
+		.lgreen{
+		background: #00FF7F;
+		}
+		.dgreen{
+		background: #006400;
+		}
+		.ygreen{
+		background: #ADFF2F;
+		}
+		.doran{
+		background: #FF8C00;
+		}
+		.gold{
+		background: #FFD700;
+		}
+		.lyell{
+		background: #FFFFE0;
+		}
+		.liyell{
+		background: #F3F781;
+		}
+		.dgray{
+		background: #2F4F4F;
+		}
+		.llgray{
+		background: #DCDCDC;
+		}
+		.gggray{
+		background: #808080;
+		}
+		.siena{
+		background: #A0522D;
+		}
+		.dsiena{
+		background: #3B170B;
+		}
+		.medsi{
+		background: #F4A460;
+		}
+		.kccs{
+		background: #000000;
+		}
+		body{
+		margin: 2px;
+		height: 4600px;
+		width: 3000px;
+		background: #FFFFFF;
+		}
+		.Img0{
+		position: fixed;
+		z-index: 1;
+		top: -600px;
+		left: 15%;
+		border: 5px solid black;
+		}
+		.Img1{
+		position: fixed;
+		z-index: 1;
+		left: 15%;
+		top: 150px;
+		animation: pen 2.0s normal 1;
+		border: 5px solid black;
+		}
+		.Img2{
+		position: fixed;
+		z-index: 1;
+		top: -600;
+		animation: pen2 2.0s normal 1;
+		border: 5px solid black;
+		}
+		A{
+		color: #990000;
+		}
+		A:visited{
+		color: #990000;
+		}
+		A:active{
+		color: #FF0000;
+		}
+    </style>
+</head>
+<body id="bodyy">
+   <div class="triangle white" id="tring1"></div>
+   <Img class="Img1" src="Pix2.png" alt="PIX" id="mmg">
+   <div class="men1" id="mm">
+	Меню:
+	<BR>1)Цвета:
+   <BR>
+   <div class="cube drred" id="drre"></div>
+   <div class="cube red" id="re"></div>
+   <div class="cube inred" id="inre"></div>
+   <div class="cube violet" id="ro"></div>
+   <div class="cube viol" id="vio"></div>
+   <div class="cube purple" id="pu"></div>
+   <BR>
+   <div class="cube navy" id="nav"></div>
+   <div class="cube medblue" id="mdblu"></div>
+   <div class="cube blue" id="blu"></div>
+   <div class="cube sky" id="sk"></div>
+   <div class="cube aqua" id="aq"></div>
+   <div class="cube steelb" id="ste"></div>
+   <BR>
+   <div class="cube dgreen" id="digr"></div>
+   <div class="cube green" id="gr"></div>
+   <div class="cube olive" id="ol"></div>
+   <div class="cube lime" id="lim"></div>
+   <div class="cube ygreen" id="yigr"></div>
+   <div class="cube lgreen" id="ligr"></div>
+   <BR>
+   <div class="cube doran" id="dor"></div>
+   <div class="cube orange" id="or"></div>
+   <div class="cube gold" id="gol"></div>
+   <div class="cube yellow" id="ye"></div>
+   <div class="cube liyell" id="liyel"></div>
+   <div class="cube lyell" id="lyel"></div>
+   <BR>
+   <div class="cube black" id="bla"></div>
+   <div class="cube dgray" id="dgra"></div>
+   <div class="cube gggray" id="ggsi"></div>
+   <div class="cube silver" id="si"></div>
+   <div class="cube llgray" id="llsi"></div>
+   <div class="cube white" id="wh"></div>
+   <BR>
+   <div class="cube dsiena" id="dsie"></div>
+   <div class="cube maroon" id="kor"></div>
+   <div class="cube siena" id="sie"></div>
+   <div class="cube karii" id="kar"></div>
+   <div class="cube medsi" id="mdsi"></div>
+   <div class="cube bezg" id="bz"></div>
+   <BR> 2)Помощь:
+   <BR> 2.1)Q - Вызвать меню;
+   <BR> 2.2)0 - Стереть всё;
+   <BR> 2.3)1 - Переключить режим рисования <font id="tex1">(Off)</font>;
+   <BR> 2.4)2 - Переключить режим стирания <font id="tex2">(Off)</font>;
+   <BR> 2.5)3 - Покрасить всё в выбранный цвет;
+   <BR> 2.6)4 - Переключить режим наложения цвета <font id="tex3">(Off)</font>;
+   <BR> 2.7)5 - Сделать фон разноцветным;
+   <BR> 2.8)~ - Задать шестнадцатеричный код цвета:
+   <BR><div class="cube black" id="palit"></div> - Текущий этот цвет
+   <div id="tex">(#000000).</div>
+   <input type="button" id="knopka" value="Сменить тему" class="butt">
+   <input type="button" id="knopka2" value="Коды цветов" class="butt">
+   </div>
+   <script>
+	'use strict'
+	bodyy.style.backgroundColor='#E8E1E1';
+	let timera = setTimeout(function(){
+		mmg.classList.add('Img2'); mmg.classList.remove('Img1');mmg.classList.add('Img0');
+	}, 3500);
+		let color = 'white';
+		let ncolor = 'white';
+		let sh = false;
+		let sh2 = false;
+		let sh3 = false;
+		let m = true;
+		let kcc = '000000';
+		let kcc2 = '000000';
+		palit.style.backgroundColor = '#' + kcc;
+		knopka2.addEventListener('click', function(){
+			document.location.href = "PIX Colors.html";
+		});
+		knopka.addEventListener('click', function(){	
+			if (color=='white') {color='black'; for (let i=0; i<sq.length; i++){
+			sq[i].style.backgroundColor = '';
+			sq[i].classList.remove('red');
+			sq[i].classList.remove('blue');
+			sq[i].classList.remove('green');
+			sq[i].classList.remove('yellow');
+			sq[i].classList.remove('black');
+			sq[i].classList.remove('white');
+			sq[i].classList.remove('orange');
+			sq[i].classList.remove('purple');
+			sq[i].classList.remove('lime');
+			sq[i].classList.remove('aqua');
+			sq[i].classList.remove('silver');
+			sq[i].classList.remove('maroon');
+			sq[i].classList.remove('violet');
+			sq[i].classList.remove('bezg');
+			sq[i].classList.remove('olive');
+			sq[i].classList.remove('karii');
+			sq[i].classList.remove('drred');
+			sq[i].classList.remove('inred');
+			sq[i].classList.remove('viol');
+			sq[i].classList.remove('navy');
+			sq[i].classList.remove('sky');
+			sq[i].classList.remove('steelb');
+			sq[i].classList.remove('medblue');
+			sq[i].classList.remove('lgreen');
+			sq[i].classList.remove('dgreen');
+			sq[i].classList.remove('ygreen');
+			sq[i].classList.remove('doran');
+			sq[i].classList.remove('gold');
+			sq[i].classList.remove('lyell');
+			sq[i].classList.remove('liyell');
+			sq[i].classList.remove('dgray');
+			sq[i].classList.remove('llgray');
+			sq[i].classList.remove('gggray');
+			sq[i].classList.remove('siena');
+			sq[i].classList.remove('dsiena');
+			sq[i].classList.remove('medsi');
+			sq[i].classList.remove('kccs');
+			sq[i].classList.add('black');
+			}; bodyy.style.backgroundColor='#696969'; } else if (color=='black') {color='white'; for (let i=0; i<sq.length; i++){
+			sq[i].style.backgroundColor = '';
+			sq[i].classList.remove('red');
+			sq[i].classList.remove('blue');
+			sq[i].classList.remove('green');
+			sq[i].classList.remove('yellow');
+			sq[i].classList.remove('black');
+			sq[i].classList.remove('white');
+			sq[i].classList.remove('orange');
+			sq[i].classList.remove('purple');
+			sq[i].classList.remove('lime');
+			sq[i].classList.remove('aqua');
+			sq[i].classList.remove('silver');
+			sq[i].classList.remove('maroon');
+			sq[i].classList.remove('violet');
+			sq[i].classList.remove('bezg');
+			sq[i].classList.remove('olive');
+			sq[i].classList.remove('karii');
+			sq[i].classList.remove('drred');
+			sq[i].classList.remove('inred');
+			sq[i].classList.remove('viol');
+			sq[i].classList.remove('navy');
+			sq[i].classList.remove('sky');
+			sq[i].classList.remove('steelb');
+			sq[i].classList.remove('medblue');
+			sq[i].classList.remove('lgreen');
+			sq[i].classList.remove('dgreen');
+			sq[i].classList.remove('ygreen');
+			sq[i].classList.remove('doran');
+			sq[i].classList.remove('gold');
+			sq[i].classList.remove('lyell');
+			sq[i].classList.remove('liyell');
+			sq[i].classList.remove('dgray');
+			sq[i].classList.remove('llgray');
+			sq[i].classList.remove('gggray');
+			sq[i].classList.remove('siena');
+			sq[i].classList.remove('dsiena');
+			sq[i].classList.remove('medsi');
+			sq[i].classList.remove('kccs');
+			sq[i].classList.add('white');
+			}; bodyy.style.backgroundColor='#E8E1E1';};
+		});
+		re.addEventListener('click', function(){
+			ncolor = 'red'
+		});
+		blu.addEventListener('click', function(){
+			ncolor = 'blue'
+		});
+		gr.addEventListener('click', function(){
+			ncolor = 'green'
+		});
+		ye.addEventListener('click', function(){
+			ncolor = 'yellow'
+		});
+		bla.addEventListener('click', function(){
+			ncolor = 'black'
+		});
+		or.addEventListener('click', function(){
+			ncolor = 'orange'
+		});
+		pu.addEventListener('click', function(){
+			ncolor = 'purple'
+		});
+		lim.addEventListener('click', function(){
+			ncolor = 'lime'
+		});
+		aq.addEventListener('click', function(){
+			ncolor = 'aqua'
+		});
+		si.addEventListener('click', function(){
+			ncolor = 'silver'
+		});
+		kor.addEventListener('click', function(){
+			ncolor = 'maroon'
+		});
+		ro.addEventListener('click', function(){
+			ncolor = 'violet'
+		});
+		bz.addEventListener('click', function(){
+			ncolor = 'bezg'
+		});
+		ol.addEventListener('click', function(){
+			ncolor = 'olive'
+		});
+		kar.addEventListener('click', function(){
+			ncolor = 'karii'
+		});
+		drre.addEventListener('click', function(){
+			ncolor = 'drred'
+		});
+		inre.addEventListener('click', function(){
+			ncolor = 'inred'
+		});
+		vio.addEventListener('click', function(){
+			ncolor = 'viol'
+		});
+		nav.addEventListener('click', function(){
+			ncolor = 'navy'
+		});
+		sk.addEventListener('click', function(){
+			ncolor = 'sky'
+		});
+		ste.addEventListener('click', function(){
+			ncolor = 'steelb'
+		});
+		mdblu.addEventListener('click', function(){
+			ncolor = 'medblue'
+		});
+		ligr.addEventListener('click', function(){
+			ncolor = 'lgreen'
+		});
+		digr.addEventListener('click', function(){
+			ncolor = 'dgreen'
+		});
+		yigr.addEventListener('click', function(){
+			ncolor = 'ygreen'
+		});
+		dor.addEventListener('click', function(){
+			ncolor = 'doran'
+		});
+		gol.addEventListener('click', function(){
+			ncolor = 'gold'
+		});
+		lyel.addEventListener('click', function(){
+			ncolor = 'lyell'
+		});
+		liyel.addEventListener('click', function(){
+			ncolor = 'liyell'
+		});
+		dgra.addEventListener('click', function(){
+			ncolor = 'dgray'
+		});
+		wh.addEventListener('click', function(){
+			ncolor = 'white'
+		});
+		llsi.addEventListener('click', function(){
+			ncolor = 'llgray'
+		});
+		ggsi.addEventListener('click', function(){
+			ncolor = 'gggray'
+		});
+		sie.addEventListener('click', function(){
+			ncolor = 'siena'
+		});
+		dsie.addEventListener('click', function(){
+			ncolor = 'dsiena'
+		});
+		mdsi.addEventListener('click', function(){
+			ncolor = 'medsi'
+		});
+		palit.addEventListener('click', function(){
+			ncolor = 'kccs'
+		});
+		function Rand() {
+			return Math.round(Math.random() * 255);
+			};
+		for (let i=0; i<30056; i++){
+		let cop = document.querySelector('.triangle').cloneNode(true);
+		document.body.appendChild(cop);
+		};
+		document.addEventListener('keydown', getChar); 
+		function getChar(event){
+			if (event.keyCode==81) { if (m == false){mm.classList.add('men2'); mm.classList.remove('men1'); mm.classList.remove('men3'); m=true;} else {mm.classList.add('men3'); m=false};};	
+			if (event.keyCode==49) { sh = !(sh); if(sh == true){document.getElementById('tex1').innerHTML= '(On)'} else {document.getElementById('tex1').innerHTML= '(Off)'};};
+			if (event.keyCode==50) { sh2 = !(sh2); if(sh2 == true){document.getElementById('tex2').innerHTML= '(On)'} else {document.getElementById('tex2').innerHTML= '(Off)'};};
+			if (event.keyCode==52) { sh3 = !(sh3); if(sh3 == true){document.getElementById('tex3').innerHTML= '(On)'} else {document.getElementById('tex3').innerHTML= '(Off)'};};
+			if (event.keyCode==53) { 
+			if (sh3 == true){
+			for (let i=0; i<sq.length; i++){
+			sq[i].style.backgroundColor = '';
+			sq[i].classList.remove('red');
+			sq[i].classList.remove('blue');
+			sq[i].classList.remove('green');
+			sq[i].classList.remove('yellow');
+			sq[i].classList.remove('black');
+			sq[i].classList.remove('white');
+			sq[i].classList.remove('orange');
+			sq[i].classList.remove('purple');
+			sq[i].classList.remove('lime');
+			sq[i].classList.remove('aqua');
+			sq[i].classList.remove('silver');
+			sq[i].classList.remove('maroon');
+			sq[i].classList.remove('violet');
+			sq[i].classList.remove('bezg');
+			sq[i].classList.remove('olive');
+			sq[i].classList.remove('karii');
+			sq[i].classList.remove('drred');
+			sq[i].classList.remove('inred');
+			sq[i].classList.remove('viol');
+			sq[i].classList.remove('navy');
+			sq[i].classList.remove('sky');
+			sq[i].classList.remove('steelb');
+			sq[i].classList.remove('medblue');
+			sq[i].classList.remove('lgreen');
+			sq[i].classList.remove('dgreen');
+			sq[i].classList.remove('ygreen');
+			sq[i].classList.remove('doran');
+			sq[i].classList.remove('gold');
+			sq[i].classList.remove('lyell');
+			sq[i].classList.remove('liyell');
+			sq[i].classList.remove('dgray');
+			sq[i].classList.remove('llgray');
+			sq[i].classList.remove('gggray');
+			sq[i].classList.remove('siena');
+			sq[i].classList.remove('dsiena');
+			sq[i].classList.remove('medsi');
+			sq[i].classList.remove('kccs');
+			sq[i].classList.add('kccs');
+			sq[i].style.backgroundColor = 'RGB(' + Rand() + ',' + Rand() + ',' + Rand() + ')';
+			sq[i].classList.remove('kccs');};}
+			else if (sh3 == false){
+			for (let i=0; i<sq.length; i++){if (sq[i].classList.contains(color)){
+			sq[i].style.backgroundColor = '';
+			sq[i].style.backgroundColor = 'RGB(' + Rand() + ',' + Rand() + ',' + Rand() + ')';
+			sq[i].classList.remove('kccs');
+			};
+			};
+			
+			};};
+			if (event.keyCode==192) { kcc = prompt('Введите шестнадцатеричный код цвета (без # для вашего удобства).');
+			ncolor = 'kccs';
+			palit.style.backgroundColor = '#' + kcc;
+			document.getElementById('tex').innerHTML= '(#' + kcc + ').';
+			if ((kcc == '')||(kcc == null)||!(kcc.length == 6)) {kcc = kcc2; palit.style.backgroundColor = '#' + kcc2; document.getElementById('tex').innerHTML= '(#' + kcc2 + ').';};
+			if (!((parseInt(kcc, 16)) >= 0)||!(kcc.length == 6)) {kcc = kcc2; palit.style.backgroundColor = '#' + kcc2; document.getElementById('tex').innerHTML= '(#' + kcc2 + ').';};
+			if (((parseInt(kcc, 16)) >= 0)&&!(kcc == '')&&!(kcc == null)&&(kcc.length == 6)) {kcc2 = kcc;};
+			};
+			if (event.keyCode==48) { 
+			for (let i=0; i<sq.length; i++){
+			sq[i].style.backgroundColor = '';
+			sq[i].classList.remove('red');
+			sq[i].classList.remove('blue');
+			sq[i].classList.remove('green');
+			sq[i].classList.remove('yellow');
+			sq[i].classList.remove('black');
+			sq[i].classList.remove('white');
+			sq[i].classList.remove('orange');
+			sq[i].classList.remove('purple');
+			sq[i].classList.remove('lime');
+			sq[i].classList.remove('aqua');
+			sq[i].classList.remove('silver');
+			sq[i].classList.remove('maroon');
+			sq[i].classList.remove('violet');
+			sq[i].classList.remove('bezg');
+			sq[i].classList.remove('olive');
+			sq[i].classList.remove('karii');
+			sq[i].classList.remove('drred');
+			sq[i].classList.remove('inred');
+			sq[i].classList.remove('viol');
+			sq[i].classList.remove('navy');
+			sq[i].classList.remove('sky');
+			sq[i].classList.remove('steelb');
+			sq[i].classList.remove('medblue');
+			sq[i].classList.remove('lgreen');
+			sq[i].classList.remove('dgreen');
+			sq[i].classList.remove('ygreen');
+			sq[i].classList.remove('doran');
+			sq[i].classList.remove('gold');
+			sq[i].classList.remove('lyell');
+			sq[i].classList.remove('liyell');
+			sq[i].classList.remove('dgray');
+			sq[i].classList.remove('llgray');
+			sq[i].classList.remove('gggray');
+			sq[i].classList.remove('siena');
+			sq[i].classList.remove('dsiena');
+			sq[i].classList.remove('medsi');
+			sq[i].classList.remove('kccs');
+			sq[i].classList.add(color);
+			};};
+			if (event.keyCode==51) { 
+			if (sh3 == true){
+			for (let i=0; i<sq.length; i++){
+			sq[i].style.backgroundColor = '';
+			sq[i].classList.remove('red');
+			sq[i].classList.remove('blue');
+			sq[i].classList.remove('green');
+			sq[i].classList.remove('yellow');
+			sq[i].classList.remove('black');
+			sq[i].classList.remove('white');
+			sq[i].classList.remove('orange');
+			sq[i].classList.remove('purple');
+			sq[i].classList.remove('lime');
+			sq[i].classList.remove('aqua');
+			sq[i].classList.remove('silver');
+			sq[i].classList.remove('maroon');
+			sq[i].classList.remove('violet');
+			sq[i].classList.remove('bezg');
+			sq[i].classList.remove('olive');
+			sq[i].classList.remove('karii');
+			sq[i].classList.remove('drred');
+			sq[i].classList.remove('inred');
+			sq[i].classList.remove('viol');
+			sq[i].classList.remove('navy');
+			sq[i].classList.remove('sky');
+			sq[i].classList.remove('steelb');
+			sq[i].classList.remove('medblue');
+			sq[i].classList.remove('lgreen');
+			sq[i].classList.remove('dgreen');
+			sq[i].classList.remove('ygreen');
+			sq[i].classList.remove('doran');
+			sq[i].classList.remove('gold');
+			sq[i].classList.remove('lyell');
+			sq[i].classList.remove('liyell');
+			sq[i].classList.remove('dgray');
+			sq[i].classList.remove('llgray');
+			sq[i].classList.remove('gggray');
+			sq[i].classList.remove('siena');
+			sq[i].classList.remove('dsiena');
+			sq[i].classList.remove('medsi');
+			sq[i].classList.remove('kccs');
+			sq[i].classList.add(ncolor);
+			if (sq[i].classList.contains('kccs')) {
+		sq[i].style.backgroundColor = '#' + kcc;
+		};
+		sq[i].classList.remove('kccs');
+			};}
+			else if (sh3 == false){
+			for (let i=0; i<sq.length; i++){if (sq[i].classList.contains(color)){
+		sq2[i].classList.toggle(color);
+		sq2[i].classList.toggle(ncolor);
+		if (sq[i].classList.contains('kccs')) {
+		sq[i].style.backgroundColor = '#' + kcc;
+		sq[i].classList.remove('kccs')
+		} else {sq[i].style.backgroundColor = ''};
+		};
+			};};
+			};
+		};
+		document.body.removeChild(document.body.children[0]);
+		let sq=document.querySelectorAll(".triangle"); 	
+		for (let i=0; i<sq.length; i++){
+		sq[i].addEventListener('click', function() {
+		if (sh3 == false){
+		if (sq[i].classList.contains(color)){
+		sq[i].classList.toggle(color);
+		sq[i].classList.toggle(ncolor);
+		if (sq[i].classList.contains('kccs')) {
+		sq[i].style.backgroundColor = '#' + kcc;
+		sq[i].classList.remove('kccs');
+		};
+		}
+		else if (sq[i].classList.contains(ncolor)){
+		sq[i].classList.remove('kccs');
+		sq[i].style.backgroundColor = '';
+		sq[i].classList.toggle(ncolor);
+		sq[i].classList.toggle(color);
+		}
+		else if (!sq[i].classList.contains(color)){
+		sq[i].style.backgroundColor = '';
+		sq[i].classList.remove('red');
+		sq[i].classList.remove('blue');
+		sq[i].classList.remove('green');
+		sq[i].classList.remove('yellow');
+		sq[i].classList.remove('black');
+		sq[i].classList.remove('white');
+		sq[i].classList.remove('orange');
+		sq[i].classList.remove('purple');
+		sq[i].classList.remove('lime');
+		sq[i].classList.remove('aqua');
+		sq[i].classList.remove('silver');
+		sq[i].classList.remove('maroon');
+		sq[i].classList.remove('violet');
+		sq[i].classList.remove('bezg');
+		sq[i].classList.remove('olive');
+		sq[i].classList.remove('karii');
+		sq[i].classList.remove('drred');
+		sq[i].classList.remove('inred');
+		sq[i].classList.remove('viol');
+		sq[i].classList.remove('navy');
+		sq[i].classList.remove('sky');
+		sq[i].classList.remove('steelb');
+		sq[i].classList.remove('medblue');
+		sq[i].classList.remove('lgreen');
+		sq[i].classList.remove('dgreen');
+		sq[i].classList.remove('doran');
+		sq[i].classList.remove('ygreen');
+		sq[i].classList.remove('gold');
+		sq[i].classList.remove('lyell');
+		sq[i].classList.remove('liyell');
+		sq[i].classList.remove('dgray');
+		sq[i].classList.remove('llgray');
+		sq[i].classList.remove('gggray');
+		sq[i].classList.remove('siena');
+		sq[i].classList.remove('dsiena');
+		sq[i].classList.remove('medsi');
+		sq[i].classList.remove('kccs');
+		sq[i].classList.add(color);
+		}; 
+		}
+		else if (sh3 == true){
+		sq[i].style.backgroundColor = '';
+		sq[i].classList.remove('red');
+		sq[i].classList.remove('blue');
+		sq[i].classList.remove('green');
+		sq[i].classList.remove('yellow');
+		sq[i].classList.remove('black');
+		sq[i].classList.remove('white');
+		sq[i].classList.remove('orange');
+		sq[i].classList.remove('purple');
+		sq[i].classList.remove('lime');
+		sq[i].classList.remove('aqua');
+		sq[i].classList.remove('silver');
+		sq[i].classList.remove('maroon');
+		sq[i].classList.remove('violet');
+		sq[i].classList.remove('bezg');
+		sq[i].classList.remove('olive');
+		sq[i].classList.remove('karii');
+		sq[i].classList.remove('drred');
+		sq[i].classList.remove('inred');
+		sq[i].classList.remove('viol');
+		sq[i].classList.remove('navy');
+		sq[i].classList.remove('sky');
+		sq[i].classList.remove('steelb');
+		sq[i].classList.remove('medblue');
+		sq[i].classList.remove('lgreen');
+		sq[i].classList.remove('dgreen');
+		sq[i].classList.remove('doran');
+		sq[i].classList.remove('ygreen');
+		sq[i].classList.remove('gold');
+		sq[i].classList.remove('lyell');
+		sq[i].classList.remove('liyell');
+		sq[i].classList.remove('dgray');
+		sq[i].classList.remove('llgray');
+		sq[i].classList.remove('gggray');
+		sq[i].classList.remove('siena');
+		sq[i].classList.remove('dsiena');
+		sq[i].classList.remove('medsi');
+		sq[i].classList.remove('kccs');
+		sq[i].classList.add(ncolor);
+		if (sq[i].classList.contains('kccs')) {
+		sq[i].style.backgroundColor = '#' + kcc;
+		sq[i].classList.remove('kccs')
+		} else {sq[i].style.backgroundColor = ''};
+		};
+		}); 
+		};
+		let sq2=document.querySelectorAll(".triangle");
+		for (let i=0; i<sq2.length; i++){
+		sq2[i].addEventListener('mousemove', function() {
+		if (sh3 == false){
+		if (sh == true) {if (sq2[i].classList.contains(color)){
+		sq2[i].classList.toggle(color);
+		sq2[i].classList.toggle(ncolor);
+		if (sq[i].classList.contains('kccs')) {
+		sq[i].style.backgroundColor = '#' + kcc;
+		sq[i].classList.remove('kccs')
+		} else {sq[i].style.backgroundColor = ''};
+		};};
+		}
+		else if (sh3 == true){
+		if (sh == true) {
+		sq2[i].classList.remove('red');
+		sq2[i].classList.remove('blue');
+		sq2[i].classList.remove('green');
+		sq2[i].classList.remove('yellow');
+		sq2[i].classList.remove('black');
+		sq2[i].classList.remove('white');
+		sq2[i].classList.remove('orange');
+		sq2[i].classList.remove('purple');
+		sq2[i].classList.remove('lime');
+		sq2[i].classList.remove('aqua');
+		sq2[i].classList.remove('silver');
+		sq2[i].classList.remove('maroon');
+		sq2[i].classList.remove('violet');
+		sq2[i].classList.remove('bezg');
+		sq2[i].classList.remove('olive');
+		sq2[i].classList.remove('karii');
+		sq2[i].classList.remove('drred');
+		sq2[i].classList.remove('inred');
+		sq2[i].classList.remove('viol');
+		sq2[i].classList.remove('navy');
+		sq2[i].classList.remove('sky');
+		sq2[i].classList.remove('steelb');
+		sq2[i].classList.remove('medblue');
+		sq2[i].classList.remove('lgreen');
+		sq2[i].classList.remove('dgreen');
+		sq2[i].classList.remove('doran');
+		sq2[i].classList.remove('ygreen');
+		sq2[i].classList.remove('gold');
+		sq2[i].classList.remove('lyell');
+		sq2[i].classList.remove('liyell');
+		sq2[i].classList.remove('dgray');
+		sq2[i].classList.remove('llgray');
+		sq2[i].classList.remove('gggray');
+		sq2[i].classList.remove('siena');
+		sq2[i].classList.remove('dsiena');
+		sq2[i].classList.remove('medsi');
+		sq2[i].classList.remove('kccs');
+		sq2[i].classList.add(ncolor);
+		if (sq2[i].classList.contains('kccs')) {
+		sq2[i].style.backgroundColor = '#' + kcc;
+		sq2[i].classList.remove('kccs')
+		} else {sq[i].style.backgroundColor = ''};
+		};
+		};
+		}); 
+		};
+		let sq3=document.querySelectorAll(".triangle");
+		for (let i=0; i<sq3.length; i++){
+		sq3[i].addEventListener('mousemove', function() {
+		if (sh2 == true) {if (!sq[i].classList.contains(color)){
+		sq3[i].style.backgroundColor = '';
+		sq3[i].classList.remove('red');
+		sq3[i].classList.remove('blue');
+		sq3[i].classList.remove('green');
+		sq3[i].classList.remove('yellow');
+		sq3[i].classList.remove('black');
+		sq3[i].classList.remove('white');
+		sq3[i].classList.remove('orange');
+		sq3[i].classList.remove('purple');
+		sq3[i].classList.remove('lime');
+		sq3[i].classList.remove('aqua');
+		sq3[i].classList.remove('silver');
+		sq3[i].classList.remove('maroon');
+		sq3[i].classList.remove('violet');
+		sq3[i].classList.remove('bezg');
+		sq3[i].classList.remove('olive');
+		sq3[i].classList.remove('karii');
+		sq3[i].classList.remove('drred');
+		sq3[i].classList.remove('inred');
+		sq3[i].classList.remove('viol');
+		sq3[i].classList.remove('navy');
+		sq3[i].classList.remove('sky');
+		sq3[i].classList.remove('steelb');
+		sq3[i].classList.remove('medblue');
+		sq3[i].classList.remove('lgreen');
+		sq3[i].classList.remove('dgreen');
+		sq3[i].classList.remove('ygreen');
+		sq3[i].classList.remove('doran');
+		sq3[i].classList.remove('gold');
+		sq3[i].classList.remove('lyell');
+		sq3[i].classList.remove('liyell');
+		sq3[i].classList.remove('dgray');
+		sq3[i].classList.remove('llgray');
+		sq3[i].classList.remove('gggray');
+		sq3[i].classList.remove('siena');
+		sq3[i].classList.remove('dsiena');
+		sq3[i].classList.remove('medsi');
+		sq3[i].classList.remove('kccs');
+		sq3[i].classList.add(color);
+		};};
+		}); 
+		};
+    </script>
+		<BR>______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+		<P align="center">© <A href="https://vk.com/darklordx">Дмитрий Семенов</A>, 16.01.2017.
+</body>
+</html>

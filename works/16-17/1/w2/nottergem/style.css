@@ -1,0 +1,192 @@
+body{
+background-image:url('http://uconstructor.com/_ld/6/624_uconstructor18.png');
+font-size:3rem;
+    transition: .55s ease;
+}
+.top{
+background-image:url('http://www.oboi-na-stol.com/pub/styles/page_preview/public/original_images/oboi-na-stol.com-296121-kartina-gustav-klimt-ozhidanie/drevo-zhizni-arbol-de-la-vida/svershenie.?itok=MWa7FLk-');
+width:100%;	
+height:8vw;
+transition:.25s ease-in-out;
+text-align:center;
+font-size:2.7rem;
+color:#251100;
+border:2px solid #5A3F16;
+font-family: 'Oswald', sans-serif;
+}
+hr{
+width:85%;
+margin:auto;
+margin-bottom:2vmin;
+margin-top:1vmin;}
+hr.end_hr{
+width:100%;	
+}
+
+a:hover
+{
+background-color:#E3B838;
+animation:shadows 1s;
+}
+a{
+text-decoration:none;
+color:#733B24;
+}
+
+a.ssylki{
+animation:none;
+}
+li>a
+{
+margin:1px;
+margin-bottom:17px;
+padding:7px;
+width:270px;
+display:inline-block;
+background-color:#C98721;
+color:#1C1C21;
+}
+
+a.arr{
+padding:3px;
+width:335px;
+color:#1C1C21;
+display:inline-block;
+animation:none;
+}
+a:active{
+background-color:#FFCDA4;
+}
+
+li
+{
+list-style-type:none;
+display:inline-block;
+}
+
+.footer{
+text-align:right;
+font-size: 1.8rem;
+color:#F0D6AB;
+}
+
+.menu{
+text-align:center;
+font-size:3.4rem;
+padding:-10px;
+}
+
+article{
+	border:solid #5a3f16;
+	background-color:rgba(217,186,140,0.7);
+	font-size:2.5rem;
+    display: inline-block;}
+
+h1{
+text-align:center;	
+color:rgba(217,186,140,1);
+}
+.list{
+  font-weight:400;
+  display:inline-block;
+  margin-top:-80px;
+  text-align:center;
+}
+
+@media(max-width:4000px){
+
+div.text{
+  font-size:2.2rem;
+  border:solid #5A3F16;
+  background-color:rgba(217,186,140,0.7);  
+  padding:5px; 
+  width:700px;
+display: inline-block;
+  }
+div.facts{
+border:solid #5a3f16;
+background-color:rgba(217,186,140,0.7);
+font-size:2.2rem;
+text-align:right;
+width:900px;
+padding:7px;
+margin-left: auto;
+margin-bottom:20px; 
+padding-right:30px;
+margin-top: 20px;}
+    
+#mur{text-align: center;
+margin-left:25%;
+left:50%;}
+}
+
+
+
+@media(max-width:1010px){
+
+div.text{
+  font-size:2.2rem;
+  border:solid #5A3F16;
+  background-color:rgba(217,186,140,0.7);  
+  padding:5px; 
+  width:700px;
+display: inline-block;
+  }
+div.facts{
+border:solid #5a3f16;
+background-color:rgba(217,186,140,0.7);
+font-size:2.2rem;
+text-align:right;
+width:90%;
+padding:7px;
+margin-left: auto;
+margin-bottom:20px; 
+padding-right:30px;
+margin-top: 20px;}
+#mur{text-align: center;
+    width:95%;
+    margin:5px;}
+}
+
+@media(max-width:750px){
+  div.text{
+  font-size:2.2rem;
+  border:solid #5A3F16;
+  background-color:rgba(217,186,140,0.7);  
+  padding:5px; 
+  width:95%;
+display: inline-block;
+  }
+div.facts{
+border:solid #5a3f16;
+background-color:rgba(217,186,140,0.7);
+font-size:2.2rem;
+text-align:right;
+width:90%;
+padding:7px;
+margin-left: auto;
+margin-bottom:20px; 
+padding-right:30px;
+margin-top: 20px;}
+#mur{text-align: center;
+    width:95%;
+    margin:5px;}
+}
+
+
+ @keyframes shadows {
+0%, 100%{box-shadow:00 0px #5A3F16;}
+50%{box-shadow:00 15px #5A3F16;}
+}
+
+
+@media(min-width:850px){
+	.top{font-size:3.6rem;}
+}
+@media(min-width:1150px){
+	.top{font-size:5rem;}
+
+}
+@media(min-width:1420px){
+	.top{font-size:6rem;}
+}

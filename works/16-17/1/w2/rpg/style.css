@@ -1,0 +1,555 @@
+@media(max-width: 768px){
+html, body{
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+.default-bg{
+    background-image: url('moon-bg.jpg');
+}
+.undertale-bg{
+    background-image: url('undertale-img.png');  
+}
+.off-bg{
+    background-image: url('off-bg.png');  
+}
+.ib-bg{
+    background-image: url('ib-bg.jpg');  
+}
+.tothemoon-bg{
+    background-image: url('tothemoon-bg.jpg');  
+}
+div{
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+}
+.topmenu{
+    width: 100%;
+    height: 15vw;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+    animation: start 2s;
+    z-index: 2;
+}
+@keyframes start{
+    from{background-color: #707070;}
+    to{background-color: black}
+}
+ol{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+li{
+    display: inline-block;
+    width: 22vw;
+    height: 7vw;
+    margin: 2.5vw 1vw;
+    background-color: #000;
+    animation: start 1s;
+    color: white;
+    font-size: 5vw;
+    border-radius: 0;
+    transition: 1s;
+}
+li>a, p>a{
+    color: white;
+}
+li:hover{
+    transition: .5s;
+    background-color: #ddd;
+    color: #222;
+}
+
+#top{
+    width: 100%;
+    height: 14vw;
+    margin: 0;
+    background-color: black;
+}
+
+.uptrans{
+    text-align: center;
+    width: 18vw;
+    height: 15vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    color: white;
+    font-size: 5vw;
+    z-index: 3;
+}
+.uptrans:hover{
+    background-color: #ddd;
+    transition: .8s;
+	opacity: 1;
+}
+
+.main{
+    width: 100%;
+    height: 300vw;
+    margin: 1vw;
+    background-color: rgba(200,200,200,0.9);
+	text-align: center;
+}
+.game_block{
+	width: 95%;
+	height: 70vw;
+	background-color: rgb(225, 225, 225);
+	display: block;
+	margin: 2vw;
+	box-shadow: 0 0 0.5vw;
+	vertical-align: top;
+}
+.game_photo{
+	width: 50%;
+	height: 90%;
+	margin: 3% 2%;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: cover;
+}
+.game_text{
+	width: 40%;
+	height: 90%;
+	margin: 3% 2%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 3vw;
+	line-height: 1.5;
+	text-align: left;
+}
+.off_photo{
+	background-image: url(off-img.jpg);
+}
+.tothemoon_photo{
+	background-image: url(tothemoon-img.png);
+}
+.ib_photo{
+	background-image: url(ib-img.jpg);
+}
+.undertale_photo{
+	background-image: url(undertale-img.jpg);
+}
+.more{
+    width: 95%;
+    height: 9vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 5vw;
+    margin: 2vw 0;
+    transition: .5s;
+}
+.more:hover{
+    background-color: #555;  
+}
+.game_char{
+    width: 90%;
+    height: 70vw;
+    text-align: center;
+}
+.describe{
+    width: 90%;
+    height: 30vw;
+	font-size: 4vw;
+	line-height: 1.5;
+	text-align: left;
+    margin: 1vw;
+}
+.download{
+    width: 30vw;
+    height: 7vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 5vw;
+    margin: 65vw 1vw;
+    transition: .5s;
+}
+.download:hover{
+    background-color: #555;  
+}
+}
+
+
+
+@media(min-width: 768px){
+html, body{
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+.default-bg{
+    background-image: url('moon-bg.jpg');
+}
+.undertale-bg{
+    background-image: url('undertale-img.png');  
+}
+.off-bg{
+    background-image: url('off-bg.png');  
+}
+.ib-bg{
+    background-image: url('ib-bg.jpg');  
+}
+.tothemoon-bg{
+    background-image: url('tothemoon-bg.jpg');  
+}
+div{
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+}
+.topmenu{
+    width: 100%;
+    height: 5.5vw;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+    animation: start 2s;
+    z-index: 2;
+}
+@keyframes start{
+    from{background-color: #707070;}
+    to{background-color: black}
+}
+ol{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+li{
+    display: inline-block;
+    width: 20vw;
+    height: 3vw;
+    margin: 0 3vw;
+    background-color: #000;
+    animation: start 1s;
+    color: white;
+    font-size: 2.5vw;
+    border-radius: 1vh;
+    transition: 1s;
+}
+li>a, p>a{
+    color: white;
+}
+li:hover{
+    transition: .5s;
+    background-color: #ddd;
+    color: #222;
+}
+
+#top{
+    width: 100%;
+    height: 5vw;
+    margin: 0;
+    background-color: black;
+}
+
+.uptrans{
+    text-align: center;
+    width: 10vw;
+    height: 100vh;
+    background-color: rgba(0, 255, 255, 0);
+    position: fixed;
+    top: 5.5vw;
+	opacity: 0;
+    left: 0;
+    transition: .5s;
+    color: white;
+    font-size: 2vw;
+}
+.uptrans:hover{
+    background-color: rgba(0, 255, 255, 0.2);
+    transition: .8s;
+	opacity: 1;
+}
+
+.main{
+    width: calc(100% - 10vw);
+    height: 100vw;
+    margin: 1vw 0 1vw 10vw;
+    background-color: rgba(200,200,200,0.9);
+	text-align: center;
+}
+.game_block{
+	width: 45%;
+	height: 40vw;
+	background-color: rgb(225, 225, 225);
+	display: inline-block;
+	margin: 1vw;
+	box-shadow: 0 0 0.5vw;
+	vertical-align: top;
+}
+.game_photo{
+	width: 50%;
+	height: 90%;
+	margin: 3% 2%;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: cover;
+}
+.game_text{
+	width: 40%;
+	height: 90%;
+	margin: 3% 2%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5vw;
+	line-height: 1.5;
+	text-align: left;
+}
+.off_photo{
+	background-image: url(off-img.jpg);
+}
+.tothemoon_photo{
+	background-image: url(tothemoon-img.png);
+}
+.ib_photo{
+	background-image: url(ib-img.jpg);
+}
+.undertale_photo{
+	background-image: url(undertale-img.jpg);
+}
+.more{
+    width: 90%;
+    height: 3vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 2vw;
+    margin: 2vw 0;
+    transition: .5s;
+}
+.more:hover{
+    background-color: #555;  
+}
+.game_char{
+    width: 70%;
+    height: 50vw;
+    text-align: center;
+}
+.describe{
+    width: 90%;
+    height: 10vw;
+	font-size: 1vw;
+	line-height: 1.5;
+	text-align: left;
+    margin: 1vw;
+    font-size: 2vw;
+}
+.download{
+    width: 20vw;
+    height: 3vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 2vw;
+    margin: 20vw 1vw;
+    transition: .5s;
+}
+.download:hover{
+    background-color: #555;  
+}
+}
+
+
+
+@media(min-width: 1366px){
+html, body{
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+.default-bg{
+    background-image: url('moon-bg.jpg');
+}
+.undertale-bg{
+    background-image: url('undertale-img.png');  
+}
+.off-bg{
+    background-image: url('off-bg.png');  
+}
+.ib-bg{
+    background-image: url('ib-bg.jpg');  
+}
+.tothemoon-bg{
+    background-image: url('tothemoon-bg.jpg');  
+}
+div{
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+}
+.topmenu{
+    width: 100%;
+    height: 4vw;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+    animation: start 2s;
+    z-index: 2;
+}
+@keyframes start{
+    from{background-color: #707070;}
+    to{background-color: black}
+}
+ol{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+li{
+    display: inline-block;
+    width: 15vw;
+    height: 2.5vw;
+    margin: auto 3vw;
+    background-color: #000;
+    animation: start 1s;
+    color: white;
+    font-size: 2vw;
+    border-radius: 1vh;
+    transition: 1s;
+}
+li>a, p>a{
+    color: white;
+}
+li:hover{
+    transition: .5s;
+    background-color: #ddd;
+    color: #222;
+}
+
+#top{
+    width: 100%;
+    height: 3.5vw;
+    margin: 0;
+    background-color: black;
+}
+.uptrans{
+    text-align: center;
+    width: 8vw;
+    height: 100vh;
+    background-color: rgba(0, 255, 255, 0);
+    position: fixed;
+    top: 4vw;
+	opacity: 0;
+    left: 0;
+    transition: .5s;
+    color: white;
+    font-size: 2vw;
+}
+.uptrans:hover{
+    background-color: rgba(0, 255, 255, 0.2);
+    transition: .8s;
+	opacity: 1;
+}
+
+.main{
+    width: calc(100% - 16vw);
+    height: 55vw;
+    margin: 1vw 8.5vw 1vw 7.6vw;
+    background-color: rgba(200,200,200,0.9);
+	text-align: center;
+}
+.game_block{
+	width: 45%;
+	height: 25vw;
+	background-color: rgb(225, 225, 225);
+	display: inline-block;
+	margin: 1vw;
+	box-shadow: 0 0 0.5vw;
+	vertical-align: top;
+}
+.game_photo{
+	width: 50%;
+	height: 90%;
+	margin: 3% 2%;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: cover;
+}
+.game_text{
+	width: 40%;
+	height: 90%;
+	margin: 3% 2%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1vw;
+	line-height: 1.5;
+	text-align: left;
+}
+.off_photo{
+	background-image: url(off-img.jpg);
+}
+.tothemoon_photo{
+	background-image: url(tothemoon-img.png);
+}
+.ib_photo{
+	background-image: url(ib-img.jpg);
+}
+.undertale_photo{
+	background-image: url(undertale-img.jpg);
+}
+.more{
+    width: 80%;
+    height: 2.5vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 2vw 0;
+    transition: .5s;
+}
+.more:hover{
+    background-color: #555;  
+}
+.game_char{
+    width: 50%;
+    height: 30vw;
+    text-align: center;
+}
+.describe{
+    width: 90%;
+    height: 10vw;
+	font-size: 1vw;
+	line-height: 1.5;
+	text-align: left;
+    margin: 1vw;
+}
+.download{
+    width: 15vw;
+    height: 2.5vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 0 1vw;
+    transition: .5s;
+}
+.download:hover{
+    background-color: #555;  
+}
+}

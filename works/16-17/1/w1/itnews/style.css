@@ -1,0 +1,76 @@
+.menu{
+	width:367px;
+	height:135px;
+	background-color:rgb(50,60,143);
+	display:inline-block;
+	border:5px solid black;
+	transition:.5s;
+}
+.text, .text1, .text2, .text3, .pMain, .pMain .li{
+	color:white;
+	text-align:center;
+	padding: 10px;
+	margin: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+.text {
+	border-bottom: 3px solid black;
+	font-size:135%;
+}
+.text1{
+  	text-align:left;	
+	font-size:135%;
+}
+.text2{
+	font-size:90%;
+	visibility:hidden;
+}
+.text3{
+	font-size:100%;
+	text-align:left;
+}
+.menu:hover{
+	background-color:green;
+}
+.article{
+	width:1875px;
+	height:400px;
+	background-color:rgb(96,96,98);
+	display:block;
+	border:5px solid black;
+	border-top:1px solid black;
+}
+a:visited{
+	color:white;
+}
+a:link{
+	color:white;
+}
+
+.menu:hover .text2{
+	visibility:visible;
+	font-size:80%;
+}
+#p1{
+	text-align:center;
+}
+.pMain {
+	text-align:left;
+}
+.pMain a:link{
+	color:rgb(0,249,24);;
+}
+.pMain a:visited{
+	color:rgb(0,249,24);
+}
+.img{
+	position:
+}
+.article1{
+	width:1875px;
+	height:160px;
+	background-color:rgb(96,96,98);
+	display:block;
+	border:5px solid black;
+	border-top:1px solid black;
+}

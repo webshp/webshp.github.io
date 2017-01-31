@@ -1,0 +1,82 @@
+<head >
+<link  href="my.css" rel="stylesheet">
+		</head>
+		<body>
+			 <style>
+  body { background: url(ima/Art.jpg);
+                   background-position:center;			
+                background-attachment: fixed;
+                background-size: cover; }
+</style>
+            
+		<div id="mob_menu" class="menu">
+
+            
+                 <a href="Главная.html" class="a" >Творчество</a>
+            	<a  href="Книги2.html" class="a"  >Книги</a>
+				  <a href="Аниме.html" class="a" >Аниме</a>
+				
+					
+					<a href="Программирование.html" class="a" >Программирование</a>
+		</div>
+		
+		<div id="bloock" class="sa">
+		<div id="delta" hidden ></div>
+		<H1 class="H1"> Творчество </H1>
+
+
+		
+		<div>
+</div>
+            
+	
+            </div>	
+            
+		<div id="basement" class="bas">
+		
+              <H1 class="bastext">©bgll 28.01.17</H1>
+			  <a id="open2" href="#" class="topp">Вверх</a>
+			
+   </div>
+	
+            
+		</body>
+		<script>
+	
+			function toggle_menu(e){
+			var d = e.deltaY;
+			var info = document.getElementById('delta');
+			info.innerHTML=d;
+			if (d > 0) mob_menu.classList.add('open');
+			else mob_menu.classList.remove('open');
+		}
+		document.body.addEventListener("wheel", toggle_menu);
+		
+document.body.addEventListener("click", func );
+ document.body.addEventListener("click", func1);
+document.body.addEventListener("click", func2 ); 
+           function func(e) { 
+			document.body.style.background="url(ima/evee.jpg) fixed center/cover " ;
+			}
+
+				setTimeout(func, 3000);
+   
+                
+                function func1(e) { 
+	
+                 document.body.style.background="url(ima/eve.jpg) fixed center/cover " ; 
+				 }
+				 setTimeout(func1, 4000);
+				function func2(e) { 
+	
+                 document.body.style.background="url(ima/morn.jpg) fixed center/cover " ;
+				 
+                 }
+				 setTimeout(func2, 5000);
+
+            
+            
+		 
+		  </script>
+		  
+		

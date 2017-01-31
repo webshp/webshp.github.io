@@ -1,0 +1,1176 @@
+@media(max-width:768px){
+	.on{
+    display:  block;
+}
+.off{
+	display:  none;
+}
+ol.zi{
+	list-style-type:none;
+	
+	width:20vw;
+	position: absolute;
+    left:1vw;
+    top:0;
+	padding:0;
+    z-index: :1;
+}
+ul{
+	list-style-type:none;
+	
+	width:20vw;
+	
+
+}
+.about,.us{
+    margin-top:3vw;
+}
+a{
+    text-decoration: none;	
+    color:black;
+}
+a.Glav,a.about,a.us{
+    
+    display:block;
+background-color: rgba(255,255,255,0.7);
+    padding:2vw;
+    border:1px solid black;
+    
+}
+a:hover{
+    background-color:#D6AF38;
+Transform:translate(5px,0px);
+}
+.two{
+    display:none;
+    position:fixed;
+    
+}
+ul li a{
+	border:1px solid black;
+	text-decoration:none;
+color:wHITE;
+background-color:RGBA(125,127,125,0.8);
+padding:2vw;
+display:block;
+font-size:3vw;
+    width:17vw;
+    height:7vw;
+}
+
+.Glav1:hover .two{
+   display:inline-block;
+    left:0;
+    
+	height:11vw;
+	padding:1vw;
+	height:11vw;
+	text-align:top;
+	position:absolute;
+	top:0;
+	
+}
+.logo{
+	display:inline-block;
+	height:3vw;
+	position:relative;
+	width:3vw;
+	background-position:center;
+	background-size:cover;
+	border-radius:50%;
+    left:-1vw;
+    top:.5vw;
+    z-index: 1;
+}
+
+
+a.Glav:hover{
+    background-color: #D6AF38;
+}
+a.about:hover{
+    background-color: #D6AF38;
+}
+a.us:hover{
+    background-color: #D6AF38;
+}
+
+nav.menu{
+  background-color:rgba(255,255,255,0);
+    width:23vw;
+    height:40vw;
+  text-align:center;
+  font-family:calibri;
+  transform:translateX(-40vw);
+  position:relative;
+  position:fixed;
+    z-index: 2;
+
+}
+button{
+    top:0;
+    left:37vw;
+    height: 10vw;
+    width:12vw;
+    opacity: 0.5;
+    position:fixed;
+    background-image: url("кнопка.png");
+    background-color:rgba(255,255,255,0.3);
+    background-size: cover;
+    background-position: right;
+    
+}
+
+
+nav.menu_is_open{
+ transform:translateX(0); 
+z-index:2;
+}
+#btn{
+   
+    height: 10vw;
+    width:9vw;
+    opacity:0;
+    background-color:white;
+    z-index:-1;
+    position: absolute;
+    left:37vw;
+    top:0;
+}
+.Welcome{
+	position:absolute;
+	background-size:cover;
+	width:100%;
+	height:15%;
+	position:absolute;
+	top:0;
+	font-family: 'Bungee', cursive;
+	text-align:center;
+	color:RGBA(130,130,130,0.9);
+}
+
+body{
+	background:url("s-t-a-l-k-e-r-zov-pripyati-1202.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	font-family: 'Roboto', sans-serif;
+	font-size:4vw;
+	transition:all .5s easy;
+}
+
+
+.mmm{
+	opacity: 1;
+	top:0;
+	height:50vw;
+	min-width: 100%; 
+	background:url("ха2.jpg");
+	background-size:cover;
+	animation:Israel 18s ease-out  infinite ;
+	display:inline-block;
+	position:absolute;
+	background-position:center;
+}
+.mmm1{
+	opacity: 0;
+	position:relative;
+	top:0;
+	left:0;
+	height:50vw;
+	min-width: 100%; 
+	background:url("ха3.jpg");
+	background-size:cover;
+	
+	animation:Israel 18s ease-out 6s infinite ;
+	background-position:center;
+	display:inline-block;
+}
+.mmm2{
+	opacity: 0;
+	position:absolute;
+	top:0;
+	left:0;
+	height:50vw;
+	min-width: 100%; 
+	background:url("ха4.jpg");
+	background-size:cover;
+	
+	animation:Israel 18s ease-out 12s infinite ;
+	background-position:center;
+	display:inline-block;
+}
+
+
+@keyframes Israel{
+
+ from{opacity: 1;}
+ 15%{opacity: 0.5; }
+ 33%{opacity: 0; }
+ 66%{opacity: 0.5;}
+ 100%{opacity: 1;}
+}
+.anim{display: inline-block;
+position:absolute;
+box-sizing:border-box;
+top:20vw;
+height:0;
+
+vertical-align:top;
+min-width:100%;
+}
+.isi{
+	position:absolute;
+	top:10vw;
+	left:5vw;
+	color:White;
+	font-family:Roboto;
+	font-weight:bolder;
+	FONT-SIZE:15vw;
+}
+.inform{
+	display:inline-block;
+	border: solid 2px black;
+	padding:2vw;
+	position:absolute;
+	width:90%;
+	left:5%;
+	background-color:rgba(255,255,255,0.5);
+}
+.first{
+	top:80vw;
+}
+#visa{
+	display:inline-block;
+	box-sizing:border-box;
+	width:25vw;
+	height:25vw;
+	
+}
+#visa:hover{
+	transform:scale(2,2);
+	z-index:+2;
+	position:relative;
+	left:15%;
+}
+
+.img6{
+
+
+height:8vw;
+width:8vw;
+display:inline-block;
+margin-left:1vw;
+margin-right:1vw;
+margin-bottom:-2vw;
+margin-top:1vw;
+display:inline-block;
+border-radius:50%;
+}
+.img6:hover{
+	transform:scale(2,2);
+	margin-right:6vw;
+	margin-left:5vw;
+}
+.f{
+position:absolute;
+top:780vw;
+background-color:black;
+color:White;
+height:30vw;
+width:95vw;
+padding-top:2vw;
+padding-right:2vw;
+padding-bottom:1vw;
+}
+.ff{
+position:absolute;
+top:230vw;
+background-color:black;
+color:White;
+height:29vw;
+width:99vw;
+padding-top:2vw;
+padding-right:2vw;
+padding-bottom:1vw;
+}
+.fff{
+position:absolute;
+top:180vw;
+background-color:black;
+color:White;
+height:29vw;
+width:99vw;
+padding-top:2vw;
+padding-right:2vw;
+padding-bottom:1vw;
+}
+#therapy{
+	top:220vw;
+	
+}
+.cite{
+	text-align:center;
+	background-color:rgba(120,133,139,0.4);
+	font-style:italic;
+	width:25vw;
+	box-sizing:border-box;
+	padding:1vw;
+	position:absolute;
+	top:2vw;
+	left:40%;
+}
+.author{
+	font-family:sans-serif;
+	color:White;
+	text-decoration:underline;
+}
+h4{
+	display:inline;
+}
+div p{
+	display:inline;
+	margin:1vw;
+	text-align:justify;
+}
+h3{
+	text-align:center;
+}
+hr{
+	width:50%;
+	margin:auto;
+	margin-bottom:2vw;
+	margin-top:1vw;
+	
+}
+.log{
+	display:inline-block;
+	height:2vmin;
+	width:2vmin;
+	background-position:center;
+	background-size:cover;
+	border-radius:50%;
+	margin-right:1vmin;
+}
+#relax{
+	top:540vw;
+	
+}
+h2{
+	text-align:center;
+}
+.vid{
+	display:block;
+	margin:auto;
+    height:60vw;
+    width:80vw;
+}
+.fich{
+	margin-top:2vw;
+}
+#visa1{
+	display:inline-block;
+	box-sizing:border-box;
+	width:30vmin;
+	height:30vmin;
+	
+	
+}
+#visa1:hover{
+	transform:scale(2,2);
+	z-index:+2;
+	position:relative;
+	left:15%;
+	
+}
+pre{
+	display:block;
+	margin-left:20%;
+}
+#video{
+	position: relative;
+	top: 30vmin;
+	left: 0;
+	min-width: 100%; 
+	min-height: 60vmin;
+	width: auto; height: 20vmin; 
+}
+.zaslon{
+	position:absolute;
+	top:30vmin;
+	height:60vmin;
+	min-width: 100%; 
+	left: 0;
+	z-index:+1;
+	background:rgba(255,255,255,0);
+}
+.try{
+	top:95vmin;
+}
+
+}
+@media(min-width:768px){
+	.on{
+    display:  none;
+}
+.off{
+	display:  block;
+}
+ol.zi{
+	list-style-type:none;
+	
+	background-color:RGBA(120,133,139,0);
+	width:80vw;
+	margin:auto;
+	padding:0;
+	text-align:center;
+}
+ul{
+	display: list-item;
+	background-color:RGBA(120,133,139,0);
+	width:30vw;
+	margin:auto;
+	padding:0;
+	text-align:center;
+	position:absolute;
+    top:0;
+	height:12vw;
+}
+li{display:inline;margin:auto;}
+ul li a{
+	border:1px solid black;
+	text-decoration:none;
+color:wHITE;
+background-color:RGBA(150,153,146,0.5);
+padding:2vw;
+display:block;
+margin:auto;
+font-size:3vw;
+
+
+
+}
+a.Glav,a.about,a.us{
+text-decoration:none;
+color:White;
+background-color:RGBA(150,153,146,0.5);
+padding:3vw;
+display:inline-block;
+margin:auto;
+font-size:4vw;
+border-radius:50%;
+}
+
+a:hover{
+background-color:#D6AF38;
+Transform:translate(5px,0px);
+}
+
+.one{
+background-color:RGBA(120,133,139,0.5);
+height:11vw;
+width:100%;
+color:#800080;
+z-index:+2;
+}
+.Welcome{
+	position:absolute;
+	background-size:cover;
+	width:97%;
+	height:15%;
+	position:absolute;
+	top:8vw;
+	font-family: 'Bungee', cursive;
+	text-align:center;
+	color:RGBA(130,130,130,0.9);
+}
+
+body{
+	background:url("s-t-a-l-k-e-r-zov-pripyati-1202.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	font-family: 'Roboto', sans-serif;
+	font-size:2vw;
+	transition:all .5s easy;
+}
+
+.two{
+	position:absolute;
+	display:inline;
+	height:11vw;
+	width:9vw;
+	display:none;
+}
+    .Glav1{
+        position: relative;
+    }
+.Glav1:hover .two{
+	display:inline-block;
+    left:0;
+	height:11vw;
+	padding:1vw;
+	height:11vw;
+	text-align:top;
+	position:absolute;
+	top:6vw;
+	z-index:2;
+}
+
+nav{
+	position:fixed;
+	min-width: 100%; 
+	min-height: 10%;
+	max-height: 10%;
+	background-color:RGBA(120,133,139,0);
+	z-index:+2;
+}
+.mmm{
+	opacity: 1;
+	top:0;
+	height:50vw;
+	min-width: 100%; 
+	background:url("ха2.jpg");
+	background-size:cover;
+	animation:Israel 18s ease-out  infinite ;
+	display:inline-block;
+	position:absolute;
+	background-position:center;
+}
+.mmm1{
+	opacity: 0;
+	position:relative;
+	top:0;
+	left:0;
+	height:50vw;
+	min-width: 100%; 
+	background:url("ха3.jpg");
+	background-size:cover;
+	
+	animation:Israel 18s ease-out 6s infinite ;
+	background-position:center;
+	display:inline-block;
+}
+.mmm2{
+	opacity: 0;
+	position:absolute;
+	top:0;
+	left:0;
+	height:50vw;
+	min-width: 100%; 
+	background:url("ха4.jpg");
+	background-size:cover;
+	
+	animation:Israel 18s ease-out 12s infinite ;
+	background-position:center;
+	display:inline-block;
+}
+
+
+@keyframes Israel{
+
+ from{opacity: 1;}
+ 15%{opacity: 0.5; }
+ 33%{opacity: 0; }
+ 66%{opacity: 0.5;}
+ 100%{opacity: 1;}
+}
+.anim{display: inline-block;
+position:absolute;
+box-sizing:border-box;
+top:20vw;
+height:0;
+
+vertical-align:top;
+min-width:100%;
+}
+.isi{
+	position:absolute;
+	top:10vw;
+	left:3vw;
+	color:White;
+	font-family:Roboto;
+	font-weight:bolder;
+	FONT-SIZE:15vw;
+}
+.inform{
+	display:inline-block;
+	border: solid 2px black;
+	padding:2vw;
+	position:absolute;
+	width:90%;
+	left:5%;
+	background-color:rgba(255,255,255,0.5);
+}
+.first{
+	top:80vw;
+}
+#visa{
+	display:inline-block;
+	box-sizing:border-box;
+	width:25vw;
+	height:25vw;
+	
+}
+#visa:hover{
+	transform:scale(2,2);
+	z-index:+2;
+	position:relative;
+	left:15%;
+}
+
+.img6{
+
+
+height:8vw;
+width:8vw;
+display:inline-block;
+margin-left:1vw;
+margin-right:1vw;
+margin-bottom:-2vw;
+margin-top:1vw;
+display:inline-block;
+border-radius:50%;
+}
+.img6:hover{
+	transform:scale(2,2);
+	margin-right:6vw;
+	margin-left:5vw;
+}
+.f{
+position:absolute;
+top:360vw;
+background-color:black;
+color:White;
+height:20vw;
+width:99vw;
+padding-top:2vw;
+padding-right:2vw;
+padding-bottom:1vw;
+}
+.ff{
+position:absolute;
+top:170vw;
+background-color:black;
+color:White;
+height:20vw;
+width:97vw;
+padding-top:2vw;
+padding-right:2vw;
+padding-bottom:1vw;
+}
+.fff{
+position:absolute;
+top:110vw;
+background-color:black;
+color:White;
+height:20vw;
+width:99vw;
+padding-top:2vw;
+padding-right:2vw;
+padding-bottom:1vw;
+}
+#therapy{
+	top:140vw;
+	
+}
+.cite{
+	text-align:center;
+	background-color:rgba(120,133,139,0.4);
+	font-style:italic;
+	width:20vw;
+	box-sizing:border-box;
+	padding:1vw;
+	position:absolute;
+	top:2vw;
+	left:40%;
+}
+.author{
+	font-family:sans-serif;
+	color:White;
+	text-decoration:underline;
+}
+h4{
+	display:inline;
+}
+div p{
+	display:inline;
+	margin:1vw;
+	text-align:justify;
+}
+h3{
+	text-align:center;
+}
+hr{
+	width:50%;
+	margin:auto;
+	margin-bottom:2vw;
+	margin-top:1vw;
+	
+}
+.logo{
+	display:inline-block;
+	height:3vw;
+	position:absolute;
+	width:3vw;
+	display:inline;
+	background-position:center;
+	background-size:cover;
+	border-radius:50%;
+}
+
+.logo1{
+	left:1vw;
+	top:5vw;
+}
+.logo2{
+	left:1vw;
+}
+.logo3{
+	left:1vw;
+}
+.log{
+	display:inline-block;
+	height:2vmin;
+	width:2vmin;
+	background-position:center;
+	background-size:cover;
+	border-radius:50%;
+	margin-right:1vmin;
+}
+#relax{
+	top:280vw;
+	
+}
+h2{
+	text-align:center;
+}
+.vid{
+	display:block;
+	margin:auto;
+}
+.fich{
+	margin-top:2vw;
+}
+#visa1{
+	display:inline-block;
+	box-sizing:border-box;
+	width:30vmin;
+	height:30vmin;
+	
+	
+}
+#visa1:hover{
+	transform:scale(2,2);
+	z-index:+2;
+	position:relative;
+	left:15%;
+	
+}
+pre{
+	display:block;
+	margin-left:20%;
+}
+#video{
+	position: relative;
+	top: 30vmin;
+	left: 0;
+	min-width: 100%; 
+	min-height: 60vmin;
+	width: auto; height: 20vmin; 
+}
+.zaslon{
+	position:absolute;
+	top:30vmin;
+	height:60vmin;
+	min-width: 100%; 
+	left: 0;
+	z-index:+1;
+	background:rgba(255,255,255,0);
+}
+.try{
+	top:95vmin;
+}
+}
+@media(min-width:1366px){
+		.on{
+    display:  none;
+}
+.off{
+	display:  block;
+}
+ol.zi{
+	list-style-type:none;
+	display:inline-block;
+	background-color:RGBA(120,133,139,0);
+	width:80vmin;
+	margin:auto;
+	margin-left:30%;
+	padding:0px;
+	text-align:center;
+}
+ul{
+	display: list-item;
+	background-color:RGBA(120,133,139,0);
+	width:40vmin;
+	margin:auto;
+	margin-left:25%;
+	padding:0px;
+	text-align:center;
+	position:absolute;
+    top:0;
+	height:12vmin;
+}
+li{display:inline;margin:auto;}
+ul li a{
+	border:1px solid black;
+	text-decoration:none;
+color:wHITE;
+background-color:RGBA(150,153,146,0.5);
+padding:2vmin;
+display:block;
+margin:auto;
+font-size:4vmin;
+
+
+
+}
+a.Glav,a.about,a.us{
+text-decoration:none;
+color:White;
+background-color:RGBA(150,153,146,0.5);
+padding:5vmin;
+display:inline-block;
+margin:auto;
+font-size:4vmin;
+border-radius:50%;
+}
+
+a:hover{
+background-color:#D6AF38;
+Transform:translate(5px,0px);
+}
+
+.one{
+background-color:RGBA(120,133,139,0.5);
+height:15vmin;
+width:100%;
+color:#800080;
+z-index:+2;
+}
+.Welcome{
+	position:absolute;
+	background-size:cover;
+	width:100%;
+	height:15%;
+	position:absolute;
+	top:10vmin;
+	font-family: 'Bungee', cursive;
+	text-align:center;
+	color:RGBA(130,130,130,0.9);
+}
+
+body{
+	background:url("s-t-a-l-k-e-r-zov-pripyati-1202.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	font-family: 'Roboto', sans-serif;
+	font-size:3vmin;
+	transition:all .5s easy;
+}
+
+.two{
+	position:absolute;
+	display:inline;
+	height:11vmin;
+	width:9vmin;
+	display:none;
+}
+    .Glav1{
+        position: relative;
+    }
+.Glav1:hover .two{
+	display:inline-block;
+    left:0vmin;
+	height:11vmin;
+	padding:1vmin;
+	height:11vmin;
+	text-align:top;
+	position:absolute;
+	top:8vmin;
+	z-index:2;
+}
+
+nav{
+	position:fixed;
+	min-width: 100%; 
+	min-height: 10%;
+	max-height: 10%;
+	background-color:RGBA(120,133,139,0);
+	z-index:+2;
+}
+.mmm{
+	opacity: 1;
+	top:-10vmin;
+	height:60vmin;
+	min-width: 100%; 
+	background:url("ха2.jpg");
+	background-size:cover;
+	animation:Israel 18s ease-out  infinite ;
+	display:inline-block;
+	position:absolute;
+	background-position:center;
+}
+.mmm1{
+	opacity: 0;
+	position:relative;
+	top:-10vmin;
+	left:0;
+	height:60vmin;
+	min-width: 100%; 
+	background:url("ха3.jpg");
+	background-size:cover;
+	
+	animation:Israel 18s ease-out 6s infinite ;
+	background-position:center;
+	display:inline-block;
+}
+.mmm2{
+	opacity: 0;
+	position:absolute;
+	top:-10vmin;
+	left:0;
+	height:60vmin;
+	min-width: 100%; 
+	background:url("ха4.jpg");
+	background-size:cover;
+	
+	animation:Israel 18s ease-out 12s infinite ;
+	background-position:center;
+	display:inline-block;
+}
+
+
+@keyframes Israel{
+
+ from{opacity: 1;}
+ 15%{opacity: 0.5; }
+ 33%{opacity: 0; }
+ 66%{opacity: 0.5;}
+ 100%{opacity: 1;}
+}
+.anim{display: inline-block;
+position:absolute;
+box-sizing:border-box;
+top:44.8vmin;
+height:30vmin;
+
+vertical-align:top;
+min-width:100%;
+}
+.isi{
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:+4vmin;
+	color:White;
+	font-family:Roboto;
+	font-weight:bolder;
+	FONT-SIZE:20vmin;
+    text-align:center;
+}
+.inform{
+	display:inline-block;
+	border: solid 2px black;
+	padding:2vmin;
+	position:absolute;
+	width:90%;
+	left:5%;
+	background-color:rgba(255,255,255,0.5);
+}
+.first{
+	top:100vmin;
+}
+#visa{
+	display:inline-block;
+	box-sizing:border-box;
+	width:30vmin;
+	height:30vmin;
+	
+}
+#visa:hover{
+	transform:scale(2,2);
+	z-index:+2;
+	position:relative;
+	left:15%;
+}
+
+.img6{
+
+
+height:10min;
+width:12vmin;
+display:inline-block;
+margin-left:1vmin;
+margin-right:1vmin;
+margin-bottom:-3vmin;
+margin-top:2vmin;
+display:inline-block;
+border-radius:50%;
+}
+.img6:hover{
+	transform:scale(2,2);
+	margin-right:6vmin;
+	margin-left:7vmin;
+}
+.f{
+position:absolute;
+top:500vmin;
+background-color:black;
+color:White;
+height:30vmin;
+width:99%;
+padding-top:2vmin;
+padding-right:2vmin;
+padding-bottom:2vmin;
+}
+.ff{
+position:absolute;
+top:200vmin;
+background-color:black;
+color:White;
+height:27vmin;
+width:99%;
+padding-top:2vmin;
+padding-right:2vmin;
+padding-bottom:2vmin;
+}
+.fff{
+position:absolute;
+top:150vmin;
+background-color:black;
+color:White;
+height:27vmin;
+width:99%;
+padding-top:2vmin;
+padding-right:2vmin;
+padding-bottom:2vmin;
+}
+#therapy{
+	top:190vmin;
+	
+}
+.cite{
+	text-align:center;
+	background-color:rgba(120,133,139,0.4);
+	font-style:italic;
+	width:30vmin;
+	box-sizing:border-box;
+	padding:1vmin;
+	position:absolute;
+	top:2vmin;
+	left:40%;
+}
+.author{
+	font-family:sans-serif;
+	color:White;
+	text-decoration:underline;
+}
+h4{
+	display:inline;
+}
+div p{
+	display:inline;
+	margin:1vmin;
+	text-align:justify;
+}
+h3{
+	text-align:center;
+}
+hr{
+	width:50%;
+	margin:auto;
+	margin-bottom:2vmin;
+	margin-top:1vmin;
+	
+}
+.logo{
+	display:inline-block;
+	height:4vmin;
+	position:absolute;
+	width:4vmin;
+	display:inline;
+	background-position:center;
+	background-size:cover;
+	border-radius:50%;
+}
+.log{
+	display:inline-block;
+	height:2vmin;
+	width:2vmin;
+	background-position:center;
+	background-size:cover;
+	border-radius:50%;
+	margin-right:1vmin;
+}
+.logo1{
+	left:1vmin;
+	top:5vmin;
+}
+.logo2{
+	left:1vmin;
+}
+.logo3{
+	left:1vmin;
+}
+#relax{
+	top:390vmin;
+	
+}
+h2{
+	text-align:center;
+}
+.vid{
+	display:block;
+	margin:auto;
+}
+.fich{
+	margin-top:2vmin;
+}
+#visa1{
+	display:inline-block;
+	box-sizing:border-box;
+	width:30vmin;
+	height:30vmin;
+	
+	
+}
+#visa1:hover{
+	transform:scale(2,2);
+	z-index:+2;
+	position:relative;
+	left:15%;
+	
+}
+pre{
+	display:block;
+	margin-left:20%;
+}
+#video{
+	position: relative;
+	top: 30vmin;
+	left: 0;
+	min-width: 100%; 
+	min-height: 60vmin;
+	width: auto; height: 20vmin; 
+}
+.zaslon{
+	position:absolute;
+	top:30vmin;
+	height:60vmin;
+	min-width: 100%; 
+	left: 0;
+	z-index:+1;
+	background:rgba(255,255,255,0);
+}
+.try{
+	top:95vmin;
+}
+}

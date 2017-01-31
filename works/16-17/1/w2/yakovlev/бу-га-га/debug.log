@@ -1,0 +1,4 @@
+[0126/182342:ERROR:process_reader_win.cc(142)] SuspendThread: Отказано в доступе. (0x5)
+[0126/182342:ERROR:exception_snapshot_win.cc(87)] thread ID 2604 not found in process
+[0126/182342:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[0126/182342:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения.  (0xc000010a)

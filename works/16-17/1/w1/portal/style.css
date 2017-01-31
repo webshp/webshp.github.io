@@ -1,0 +1,141 @@
+body, html{
+	margin:0;
+}
+.zagol{
+	   margin:auto;
+
+}
+.log{
+	 margin:0px auto 100px auto;
+     text-align:center;
+	 height:150px;
+	 padding:50px;
+	 }
+.menu{width:90vw;
+      margin:auto;
+      background-color:rgba(142, 142, 142, 0.7);
+      background-size:cover;
+	  text-align:center;
+      margin-bottom:8vw;
+	  padding:0.5vw 0;
+              
+}
+.bottom{display:inline-block;
+        vertical-align:top;
+        width:10vw;
+		text-align:center;
+		font-size:1.5em;
+		font-family:'Source Sans Pro', sans-serif;
+		color:#191919;
+		padding:5vw 1vw;
+        margin-left:0.1vw;
+		margin-right:0.1vw;
+		transition:.4s;
+}	
+.bottom>span{
+        line-height:normal;}
+
+	
+.ok:hover{
+          background-color:#686868; 
+          color:white;
+
+}
+body{background-image:url('glados.jpg');
+     background-size:cover;
+     background-attachment:fixed; 
+}
+.maine{text-align:center;
+       margin-left:10vw;
+       margin-right:10vw;
+}
+p{margin:9px;
+      font-size:1.4em;
+      font-family: 'Lato', sans-serif;
+      padding-left:5vw;
+      padding-right:5vw;
+      padding-top:2vw;
+      padding-bottom:3vw;
+      text-align:justify;
+}
+.frames{width:50vw;
+        height:33vw;
+        text-align:center;
+}
+.text{background-color:rgba(255, 255, 255, 0.5);
+      margin:9px;
+}
+.portret{width:15vw;
+         height:23vw;
+		 float:left;
+		 margin:1vw 1.7vw; }
+.portret2{width:15vw;
+         height:22vw;
+		 float:right;
+		 margin:1vw 1.7vw; }	
+
+.mini-photo{height:20vw;
+            width:40vw;
+			float:right;
+			margin:1vw 1.7vw;
+
+}		 
+.line{width:80vw;
+      height:17vw;
+
+}
+.lines{width:80vw;
+      height:19vw;
+
+}
+.pictures{display:inline-block;
+          margin:1vw;
+}	 
+.pict{width:20vw;
+      height:15vw; 
+      
+}
+.pictu{width:20vw;
+       height:13vw;
+}
+.pic{width:20vw;
+     height:17vw;
+}
+.cadr{width:30vw;
+      height:26vw;
+      float:left;
+      margin:1vw 1.7vw;
+}
+.cadr1{width:50vw;
+      height:35vw;
+      margin:1vw 1.7vw;
+}
+.cube{width:25vw;
+      height:25vw;
+      margin:0 2vw 1.5vw 0;
+}
+.cube1{width:50vw;
+       height:30vw;
+       margin:0.2vw;
+}
+.music{margin:3vw;
+      display:inline-block;
+      text-align:left;
+	  vertical-align:middle;
+}
+.txt{display:inline-block;
+     text-align:right;
+	 vertical-align:middle;
+}
+.pictures{background-size:contain;}
+
+
+.img{text-align:left;
+	 margin:1vw auto auto;
+     
+	 display:inline-block;}
+.pod{margin:1vw 3vw;
+     text-align:center;
+     }
+.fot{color:white;
+     text-align:center;}

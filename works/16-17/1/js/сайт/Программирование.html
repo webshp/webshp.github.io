@@ -1,0 +1,80 @@
+<head >
+<link  href="my.css" rel="stylesheet">
+		</head>
+			<title>Программирование</title>
+
+		<body>
+
+			 <style>
+  
+   
+  body { background: url(ima/eeee.jpg);
+                   background-position:center;			
+                background-attachment: fixed;
+                background-size: cover; }
+</style>
+            
+		<div id="mob_menu" class="menu">
+
+                 
+				   <a href="Главная.html" class="a" >Главная</a>
+        
+					<a href="Творчество.html" class="a" >Творчество</a>
+                <a href="Книги2.html" class="a" >Книги</a>
+                    <a href="Аниме.html" class="a" >Аниме</a>
+					
+					
+		</div>
+	
+	<div id="bloock" class="sa">
+		<div id="delta" hidden ></div>
+		<H1 class="H1"> Программирование </H1>
+
+
+		
+	<div class="textss">JavaScript изначально создавался для того, чтобы сделать web-странички «живыми». Программы на этом языке называются скриптами. В браузере они подключаются напрямую к HTML и, как только загружается страничка – тут же выполняются.
+Программы на JavaScript – обычный текст. Они не требуют какой-то специальной подготовки.
+В этом плане JavaScript сильно отличается от другого языка, который называется Java, не путайте пожалуйста.
+</div>
+<div class="textss">
+Когда создавался язык JavaScript, у него изначально было другое название: «LiveScript». Но тогда был очень популярен язык Java, и маркетологи решили, что схожее название сделает новый язык более популярным. Этот сайт тоже был сделан с использованием js. Тут всё держится на божьей помощи и готово рухнуть в любой момент.
+ Например поиск который тут когда-то был мог найти слово только если оно лежит в меню или в заголовоке. Парящий Муми - тролль сделан с использованием таймеров, но вряд ли кто-либо это заметит.
+ А еще главная страница могла выглядеть вот так:
+</div>
+     <div class="imm"><img class="fk"   border="2px" src="ima/imm.png" ></div>       
+	<div>Ничего не видно, поверьте все в порядке.</div>
+            </div>	
+            
+		<div id="basement" class="bas">
+		
+              <H1 class="bastext">©bgll 28.01.17</H1>
+			  <a id="open2" href="#" class="topp">Вверх</a>
+			
+   </div>
+</body>
+
+	
+	
+ 	
+		</body>
+
+		<script>
+
+
+	
+	function toggle_menu(e){
+			var d = e.deltaY;
+			var info = document.getElementById('delta');
+			info.innerHTML=d;
+			if (d > 0) mob_menu.classList.add('open');
+			else mob_menu.classList.remove('open');
+		}
+		document.body.addEventListener("wheel", toggle_menu);
+
+
+
+	
+		 
+		  </script>
+		  
+		

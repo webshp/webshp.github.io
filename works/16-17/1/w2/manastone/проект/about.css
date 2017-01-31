@@ -1,0 +1,213 @@
+@import url(http://allfont.ru/allfont.css?fonts=benguiat-rus);
+body {
+  background-color: #dec487;
+  font-family: 'Benguiat Rus', arial;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(background.jpg);
+  margin-top: -10px;
+  box-shadow: 0 0 5px 5px #e6cb8f;
+}
+.header {
+  width: 1160px;
+  padding: 20px;
+  border-bottom: 2px solid grey;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.logo {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px 0px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: 900;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-left: 50px;
+  background-image: url(logo.png);
+  background-size: contain;
+}
+.menu {
+  background-color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  vertical-align: top;
+  width: 1000px;
+  height: 60px;
+}
+.slider {
+  margin: 20px 0;
+  width: 100%;
+  height: 400px;
+  background-color: #38d;
+}
+.menu_nav {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  transition: 1s;
+  left: -200px;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url(background.jpg);
+  color: white;
+  box-shadow: 0 0 5px 5px #e6cb8f;
+}
+.menu_is-open {
+  transform: translatex(200px);
+}
+.button__info {
+  display: inline-block;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 1.1rem;
+  color: white;
+  transition: .2s;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-top: 7px;
+  text-decoration: none;
+  font-family: 'Benguiat Rus', arial;
+}
+.button__info-menu {
+  display: none;
+}
+.button__info:hover {
+  background-color: #f9b820;
+}
+.button__info:active {
+  box-shadow: 0 0 2px 2px black;
+}
+.footer {
+  width: 1160px;
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 2px solid grey;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.news-in-h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.comment {
+  width: 850px;
+  height: auto;
+  border: 1px solid black;
+  margin: auto;
+  box-shadow: 0 0 5px 5px black;
+  margin-top: 20px;
+}
+.comment__avatar-cm1 {
+  width: 70px;
+  height: 70px;
+  background-image: url(../проект/razr1.png);
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 0 0 auto;
+}
+.comment__avatar-cm2 {
+  width: 70px;
+  height: 70px;
+  background-image: url(../проект/razr2.png);
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 0 0 auto;
+}
+.comment__avatar-cm3 {
+  width: 70px;
+  height: 70px;
+  background-image: url(../проект/razr3.png);
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 0 0 auto;
+}
+.comment__left-side {
+  display: inline-block;
+  width: 80px;
+  padding: 5px;
+  vertical-align: top;
+}
+.comment__right-side {
+  width: 390px;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+}
+.comment__date {
+  color: blue;
+}
+.comment__urname {
+  margin: 20px 0;
+  color: green;
+}
+.comment__title {
+  margin: 20px 0;
+  color: red;
+}
+.comment__text {
+  text-align: justify;
+  width: 700px;
+}
+.leeroy {
+  width: 180px ;
+  height: 249px ;
+  position: fixed;
+  left: -400px;
+  transition: 1s;
+}
+.leeroyrekt {
+  transform: translate(2000px, 0px);
+}
+.btn-1 {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+  .button__info {
+    margin-left: 30px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .footer {
+    display: none;
+  }
+  .comment {
+    width: 100%;
+  }
+  .comment__text {
+    width: 100%;
+  }
+}
+@media (max-width: 760px) {
+  .header {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .comment {
+    width: 100%;
+  }
+  .comment__text {
+    width: 100%;
+  }
+  .btn-1 {
+    display: block;
+    margin: auto;
+  }
+}

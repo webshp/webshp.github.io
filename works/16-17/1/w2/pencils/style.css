@@ -1,0 +1,75 @@
+.foot{
+ font-size:20px;
+}
+h1{
+ font-size:60px;
+ font-weight:bold;
+ color:#800000;
+ }
+ body{
+ background-color:#FAFAD2;
+ }
+.text{
+font-size:17px;
+text-align:left;
+}
+h2{
+ font-size:40px;
+ font-weight:bold;
+ color:#800000;
+}
+h3{
+ font-size:25px;
+ color:#800000;
+} 
+.ss{
+color:blue;
+text-align:left;
+font-size:15px
+}
+.dd{
+color:blue;
+font-size:200px;
+}
+.menu{
+transition: .5s;
+left:100px;
+position:absolute;
+top:0;
+
+}
+.bar {
+    position:fixed;
+    left:-100px;
+    font-family:"Play";
+    font-size:80%;
+    top:0px;
+    width:160px;
+    height: 100vh;
+    background-color:#800000;
+    color:white;
+    transition: .5s; 
+
+    }
+    .bar a{
+     text-decoration:none;
+      color:white;
+    }
+    .bar:hover + .menu  { 
+transform: translateX(70px);
+ text-decoration:none;
+   
+ }
+ .bar:hover{
+    transform: translateX(100px);
+ }   
+ html{
+ overflow-x: hidden;
+ }
+.but{
+
+ text-align:center;
+ font-size:25px;
+ padding:10px;
+ text-decoration:none;
+}

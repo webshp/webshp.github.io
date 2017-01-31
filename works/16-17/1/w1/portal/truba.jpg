@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Доступ закрыт!</title>
+        <style media="screen" type="text/css">
+            body { font-family: Tahoma, sans-serif; font-size: 16px; color: #444; text-align: left; background-color:white; width: 100%; height: 100%; margin: 0; padding: 0; }
+            h1 { font-size: 32px; letter-spacing: -1px;
+                font-weight: bold; color: #659ebf; text-align: center; margin-top: 20px; margin-bottom: 20px; }
+            a { color: #659ebf; font-weight: bold; text-decoration: none; }
+            .micro { font-size: 13px; text-align: center; }
+            .med { font-size: 13px; }
+            #detailed-info {
+                display: none;
+            }
+            .content {
+                margin: 0 auto;
+                width: 40em;
+                text-align: center;
+                padding-top: 1em;
+            }
+            @media (max-width: 700px) {
+                .content {
+                    margin: 0 0.5em;
+                    width: auto;
+                }
+            }
+            .logo {
+                width: auto;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="f" style="width:100%; height:100%; border:1px solid black">
+            <tr><td style="font:normal 10px Tahoma, sans-serif;color:#333;text-align:center;">Содержимое заблокировано</td></tr>
+        </table>
+        <div id="b" class="content" style="display: none">
+            
+                <div align="center">
+                    <img class="logo" src="https://www.skydns.ru/userfiles/blockpages/984.jpg" border="0">
+                </div>
+            
+            <h1>Доступ закрыт!</h1>
+
+            
+    <p>Просмотр данной страницы запрещен политикой безопасности</p>
+
+
+            <a href="#" id="show-details">Показать подробности</a>
+
+            
+    <div id="detailed-info">
+        
+            <p>Cайт <strong>guidesmedia.ign.com</strong> заблокирован, так как относится к запрещенным категориям: <strong>Компьютерные игры</strong>.</p>
+        
+    </div>
+    
+    <style type="text/css">
+        .sf {
+            font-family: Tahoma, Verdana, Arial, sans-serif;
+            font-size: 1em;
+            line-height: 1.3;
+            color: #222;
+        }
+        .sf form {
+            margin: 0;
+        }
+        .sf input {
+            padding: 0.25em;
+        }
+        .sf button,
+        .sf input {
+            line-height: normal;
+            font-size: 100%;
+            margin: 0;
+            vertical-align: baseline;
+        }
+        .sf input:focus {
+            outline: none;
+            border-color: #a3c7e9;
+            -webkit-box-shadow: 0 0 0.3em #5B9DDA;
+            -moz-box-shadow: 0 0 0.3em #5B9DDA;
+            box-shadow: 0 0 0.3em #5B9DDA;
+            position: relative;
+            z-index: 2;
+        }
+        .sf-clearfix:before, .sf-clearfix:after { content:""; display:table; }
+        .sf-clearfix:after { clear:both; }
+        .sf-clearfix { zoom:1; }
+        .sf .button {
+            border:0.1em solid #CCC;
+            text-align:center;
+            text-decoration:none;
+            -webkit-border-radius:0.25em;
+            -moz-border-radius:0.25em;
+            border-radius:0.25em;
+            -webkit-box-shadow:#CCC 0 0.1em 0.25em;
+            -moz-box-shadow:#CCC 0 0.1em 0.25em;
+            box-shadow:#CCC 0 0.1em 0.25em;
+            background:#ffffff;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e2e2e2'); /* IE6 & IE7 */
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e2e2e2')"; /* IE8+ */
+            background:-webkit-linear-gradient(#ffffff, #e2e2e2);
+            background:-moz-linear-gradient(#ffffff, #e2e2e2);
+            background:-ms-linear-gradient(#ffffff, #e2e2e2);
+            background:-o-linear-gradient(#ffffff, #e2e2e2);
+            background:linear-gradient(#ffffff, #e2e2e2);
+            color:#484848;
+            font-size:1em;
+            padding: 0.3em 1em;
+            font-family:verdana, sans-serif;
+            display:inline-block;
+        }
+        .sf .button:hover {
+            border: 0.1em solid #CCC;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#ffffff'); /* IE6 & IE7 */
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#ffffff')"; /* IE8+ */
+            background:-webkit-linear-gradient(#e2e2e2, #ffffff);
+            background:-moz-linear-gradient(#e2e2e2, #ffffff);
+            background:-ms-linear-gradient(#e2e2e2, #ffffff);
+            background:-o-linear-gradient(#e2e2e2, #ffffff);
+            background:linear-gradient(#e2e2e2, #ffffff);
+        }
+        .sf .button:active {
+            color:#666;
+            -webkit-box-shadow:#aaa 0 0.25em 0.25em inset;
+            -moz-box-shadow:#aaa 0 0.25em 0.25em inset;
+            box-shadow:#aaa 0 0.25em 0.25em inset;
+        }
+        .sf .site-title {
+            display: block;
+            font-size: 1.8em;
+            line-height: 1.8em;
+        }
+        .sf .site-title,
+        .sf .site-title:hover,
+        .sf .site-title:visited {
+            color: #659ebf;
+            text-decoration: none;
+        }
+        .sf .sf-title,
+        .sf .sf-content {
+            padding: 0.3em 0;
+            width: 100%;
+        }
+        .sf .sf-query {
+            height: 1.35em;
+            width: 100%;
+            border: 0.1em solid #CCC;
+            -webkit-border-radius: 0.25em 0 0 0.25em;
+            -moz-border-radius: 0.25em 0 0 0.25em;
+            border-radius: 0.25em 0 0 0.25em;
+            border-right: none;
+        }
+
+        .sf .sf-button {
+            height: 2em;
+            padding: 0.25em 0.4em;
+            font-size: 1em;
+            -webkit-border-radius: 0 0.25em 0.25em 0;
+            -moz-border-radius: 0 0.25em 0.25em 0;
+            border-radius: 0 0.25em 0.25em 0;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        .sf-inputs {
+            display: flex;
+        }
+    </style>
+    <div class="sf">
+        <div class="sf-title sf-clearfix">
+            <a class="site-title" href="http://search.skydns.ru/" target="_top">Безопасный поиск</a>
+        </div>
+        <div class="sf-content sf-clearfix">
+            <form action="http://search.skydns.ru/search/" method="get" target="_top">
+                <div class="sf-inputs">
+                    <input id="id_query" type="text" name="query" class="sf-query" value="">
+                    <input type="submit" value="Поиск" class="button sf-button">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+
+    
+        
+    <div class="compain-form">
+        <p class="med">Если категории указаны неверно, нажмите кнопку &laquo;Пожаловаться&raquo; - мы проверим ситуацию.</p>
+        <form method="post" action="https://www.skydns.ru/check">
+            <input type="hidden" name="domain" value="guidesmedia.ign.com">
+            <input type="hidden" name="blocked_domain" value="guidesmedia.ign.com">
+            <input type="hidden" name="category" value="Компьютерные игры">
+            <input type="hidden" name="identtype" value="ip">
+            <input type="hidden" name="ident" value="176.123.218.130">
+            <input type="hidden" name="masterhost" value="peterburg-2">
+            <br/>
+            <div align="center">
+                <input type="submit" name="send" value="Пожаловаться" style="height:30px;">
+            </div>
+        </form>
+    </div>
+
+    
+
+        </div>
+        <script type="text/javascript">
+            if (window == top || false) {
+                document.getElementById("f").style.display = "none";
+                document.getElementById("b").style.display = "";
+            }
+            document.getElementById('show-details').onclick = function(){
+                document.getElementById("detailed-info").style.display = "block";
+                document.getElementById("show-details").remove();
+                return false;
+            };
+        </script>
+    </body>
+    <!-- peterburg-2 -->
+    <!-- profile: 111089 -->
+</html>
