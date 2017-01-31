@@ -1,0 +1,1 @@
+.grid{display:-ms-flexbox;display:flex;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-pack:center;justify-content:center;-ms-flex-align:start;align-items:flex-start;margin:auto}.grid__item{-ms-flex:0 1 250px;flex:0 1 250px;margin:20px}.grid-4{max-width:1200px}
