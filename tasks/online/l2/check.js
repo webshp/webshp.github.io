@@ -11,9 +11,10 @@ check.addEventListener('click', function(){
     rez.p = checker.getElementsByTagName('p');
     rez.em = checker.getElementsByTagName('em');
     rez.strong = checker.getElementsByTagName('strong');
-    rez.dfn = checker.getElementsByTagName('def');
+    rez.dfn = checker.getElementsByTagName('dfn');
     rez.i = checker.getElementsByTagName('i');
     rez.b = checker.getElementsByTagName('b');
+    rez.cite = checker.getElementsByTagName('cite');
     rez.hr = checker.getElementsByTagName('hr');
     
     let task = {};
@@ -27,6 +28,7 @@ check.addEventListener('click', function(){
     task.i = 2 + 2 + 9;
     task.b = 3 + 6;
     task.hr = 6;
+    task.cite = 2;
     
     for (let tag in task){
         let tmp = document.createElement("p");
