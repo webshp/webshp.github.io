@@ -1,4 +1,0 @@
-<p class='win'> <a href='index.html'>Главная </p></a><p class='win'><a href='first.html'>Информация </p></a><a href='windex.html'
-><p class='win'>Доп.Информация</p> </a><a
- href='gallery.html'><p class='win'>Галлерея </p>
-</a><a href='sebe.html'><p class='win'>О себе</a></p>
